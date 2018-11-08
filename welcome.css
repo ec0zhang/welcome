@@ -3,8 +3,7 @@
     margin: 0;
 }
 body{
-    /*background: url("pic/yumao.jpg") no-repeat center fixed;*/
-    /*background-size: cover;*/
+    background: url("pic/bgLeft1.png");
 }
 
 h3{
@@ -42,17 +41,18 @@ h3{
 #weChat{
     width: 300px;
     height: 500px;
-    margin-top: 100px;
-    margin-left: 600px;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 10px 3px rgba(28,21,6,0.51);
-    background: url("https://upload-images.jianshu.io/upload_images/7167628-5a206387eebb7843.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240") no-repeat center fixed;
-    background-size: 350px 350px;
+    /*margin-top: 100px;*/
+    /*margin-left: 600px;*/
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 1px rgb(255, 239, 94);
+    background: url("pic/desk.jpg") no-repeat center;
+    background-size: cover;/*cover属性可以让图片填充父级元素*/
 }
 #head{
     height: 8%;
-    background-color: rgb(4, 25, 50);
+    background-color: #6b6f7c;
 }
 #show{
     height: 67%;
@@ -126,8 +126,8 @@ h3{
     width: 265px;
     height: 40px;
     display: inline-block;
+    border-radius: 10px;
     background-color: #348903;
     margin: 30px 20px 20px 20px;
-    border-radius: 10px;
     text-align: center;
 }
