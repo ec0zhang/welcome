@@ -1,11 +1,8 @@
 window.onload = function () {
-    var onClicks = document.getElementById('onClick');
-    var talksleft = document.getElementsByClassName('chat-bubble-left');
-    var talksright = document.getElementsByClassName('chat-bubble-right');
-    var leftTalks = document.getElementById('leftTalk');
-    var rightTalks = document.getElementById('rightTalk');
-    var words = document.getElementById('word');
-    var num = 0;
+    let onClicks = document.getElementById('onClick');
+    let rightTalks = document.getElementById('rightTalk');
+    let words = document.getElementById('word');
+    let num = 0;
 
 
     //2、当点击之后触发的时间
@@ -21,7 +18,7 @@ window.onload = function () {
             //2、2 创建图片
             let pic = document.createElement('img');
         pic.className = 'photo2';
-        pic.src = 'pic/fox1.jpg';
+        pic.src = 'pic/fox2.jpg';
 
         rightTalks.appendChild(talk1);
         rightTalks.appendChild(pic);
@@ -53,7 +50,7 @@ window.onload = function () {
                 //2、2 创建图片
                 let pic = document.createElement('img');
                 pic.className = 'photo2';
-                pic.src = 'pic/fox1.jpg';
+                pic.src = 'pic/fox2.jpg';
 
                 rightTalks.appendChild(talk3);
                 rightTalks.appendChild(pic);
@@ -78,6 +75,5 @@ window.onload = function () {
 
         }
 }
-
 
 }
