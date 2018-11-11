@@ -17,7 +17,7 @@ h3{
 .back{
     width: 16px;
     height: 16px;
-    padding-top: 1px;
+    padding: 2px 6px 0 4px;
 }
 .photo1{
     border: 1px;
@@ -35,15 +35,15 @@ h3{
     height: 38px;
     position: absolute;
     /*padding-left: 87px;*/
-    margin: -65px 252px;
+    margin: -65px 452px;
 }
 
 #weChat{
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 700px;
     /*margin-top: 100px;*/
     /*margin-left: 600px;*/
-    margin: auto;
+    margin:50px auto;
     border-radius: 5px;
     border: 1px solid white;
     box-shadow: 5px 5px 1px rgb(255, 239, 94);
@@ -94,7 +94,7 @@ h3{
     border-color:transparent #ffffff transparent  transparent ;
 }
 .chat-bubble-right {
-    right: -30px;
+    right: -220px;
     background-color: #348903;
 }
 .chat-bubble-right:before {
@@ -123,11 +123,12 @@ h3{
     background-color: rgb(0, 0, 0);
 }
 #word{
-    width: 265px;
-    height: 40px;
+    width: 365px;
+    height: 70px;
     display: inline-block;
     border-radius: 10px;
     background-color: #348903;
-    margin: 30px 20px 20px 20px;
+    margin: 60px 70px 70px 70px;
     text-align: center;
 }
+
