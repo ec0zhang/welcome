@@ -22,7 +22,7 @@ window.onload = function () {
 
         rightTalks.appendChild(talk1);
         rightTalks.appendChild(pic);
-        talk1.innerText = '小姐姐，我们用什么写代码？';
+        talk1.innerText = '那。。。小姐姐，我们用什么写代码？';
 
         //2.3 创建回答气泡
         let talk2 = document.createElement('div');
