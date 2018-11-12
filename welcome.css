@@ -44,13 +44,12 @@ h3{
     margin:240px auto;/*先上下，后左右*/
     border-radius: 5px;
     border: 1px solid white;
-    box-shadow: 5px 5px 1px rgb(255, 239, 94);
     background: url("pic/desk.jpg") no-repeat center;
     background-size: cover;/*cover属性可以让图片填充父级元素*/
 }
 #head{
     height: 8%;
-    background-color: #6b6f7c;
+    background-color: rgb(86,108,115);
 }
 #show{
     height: 74%;
